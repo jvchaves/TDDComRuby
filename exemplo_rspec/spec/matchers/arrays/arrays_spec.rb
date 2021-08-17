@@ -1,5 +1,5 @@
 RSpec::Matchers.define_negated_matcher :exclude, :include
-describe Array.new([1,2,3,4,5]) do
+describe Array.new([1,2,3,4,5]), :collection do
   it 'Include' do
     expect(subject).to include(2)
   end
