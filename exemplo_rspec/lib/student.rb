@@ -3,6 +3,7 @@ class Student
   def has_finished?(course)
   end
   def foo(args)
-
+  end
+  def bar
   end
 end
